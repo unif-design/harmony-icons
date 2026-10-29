@@ -1,0 +1,48 @@
+name: Icons Parity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  merge_group:
+    types: [checks_requested]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: icons-parity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generated-parity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Harmony candidate
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          path: harmony-icons
+          persist-credentials: false
+      - name: Checkout RN main baseline
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: unif-design/react-native-icons
+          ref: main
+          path: react-native-icons
+          persist-credentials: false
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: react-native-icons/.nvmrc
+      - name: Install source tool dependencies
+        working-directory: react-native-icons
+        run: |
+          corepack enable
+          yarn install --immutable --mode=skip-build
+      - name: Test generator and verify both targets
+        working-directory: react-native-icons
+        run: |
+          node --test scripts/build-icons.test.cjs scripts/build-harmony-icons.test.cjs
+          yarn check:icons:all --harmony-root ../harmony-icons
