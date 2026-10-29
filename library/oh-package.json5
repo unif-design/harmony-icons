@@ -3,7 +3,7 @@
   "version": "0.5.5",
   "description": "Native ArkUI icons generated from the Unif SVG source",
   "main": "Index.ets",
-  "author": "unif-design",
+  "author": "unif-design <382724935@qq.com> (https://github.com/unif-design)",
   "license": "MIT",
   "dependencies": {},
   "repository": "https://github.com/unif-design/harmony-icons"
