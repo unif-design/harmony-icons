@@ -1,0 +1,738 @@
+{
+  "generator": "react-native-icons/scripts/build-icons.cjs --target harmony",
+  "sourceRevision": "e5c039327d1cc1cd8a4ba502d01aff0ef9b8a6a9",
+  "manifestSha256": "79e81a460d726e4fb6b9df526ac1939c9df4d6454bb3d1b2f7c48a40f53d1ba4",
+  "generatorSha256": "956fbbc73ae4f53b056aaf98c9a0c69f41406483bd0ba8389526a8be8b1f1253",
+  "icons": [
+    {
+      "name": "alert",
+      "component": "AlertOutlined",
+      "svgSha256": "758af465dbe2a46290d0fbd14777558adc6cde3ec918a0004d3666c3290129fa"
+    },
+    {
+      "name": "app-fallback",
+      "component": "AppFallbackOutlined",
+      "svgSha256": "59326538c26a8eaf80e114de91179869278b28af5730692b306cd9e3cce6844f"
+    },
+    {
+      "name": "arrow-down",
+      "component": "ArrowDownOutlined",
+      "svgSha256": "3f9b707bba7678f87e326c7e12c95a9f2cd5325816e40a32322b4a96ab7d7ba8"
+    },
+    {
+      "name": "arrow-left",
+      "component": "ArrowLeftOutlined",
+      "svgSha256": "64d5026e9ee1539b5478bb259821c4dfbde6d5dda7ab5fbf4e303e17d35054d4"
+    },
+    {
+      "name": "arrow-right",
+      "component": "ArrowRightOutlined",
+      "svgSha256": "689b16785299f3488a53fc9f67ccbda058784e4831b3a676213973605fecbfbc"
+    },
+    {
+      "name": "arrow-up",
+      "component": "ArrowUpOutlined",
+      "svgSha256": "a2d8f2fef2b3a07388bb28cf6a6df49a503cf8bccea398c52669c734d3cda274"
+    },
+    {
+      "name": "aspect-16-9",
+      "component": "Aspect169Outlined",
+      "svgSha256": "2ea13c1325e7518be82cfebbf15cf4db8f2c88b1a95826ae705ab34a2a94b02d"
+    },
+    {
+      "name": "aspect-4-3",
+      "component": "Aspect43Outlined",
+      "svgSha256": "50b2eec4be13b7f64aabd4429295ff68aa18f7b9afe49df20e3263402f869917"
+    },
+    {
+      "name": "attachment",
+      "component": "AttachmentOutlined",
+      "svgSha256": "7ac7ab16d66b8ebee939bbffe5ffbb6f5d8d5edcf726bcf83ea4c8a5500084bb"
+    },
+    {
+      "name": "bag-check",
+      "component": "BagCheckOutlined",
+      "svgSha256": "ef8a5ec80297cc461333ad69a2bd52880460c5b12b34b89eebdfe05f59d604e5"
+    },
+    {
+      "name": "bank",
+      "component": "BankOutlined",
+      "svgSha256": "2308227bbbcc181ffc323fd8764ac4e2786d7c8668c656933b6adf5b2d54eede"
+    },
+    {
+      "name": "bed",
+      "component": "BedOutlined",
+      "svgSha256": "56d3b2350195d0078f137de0d6bf6ead88f89351c487ade045f1c56d5351cbb1"
+    },
+    {
+      "name": "bell",
+      "component": "BellOutlined",
+      "svgSha256": "1f36f528634eab4696aeaaade63ad03fa8298ecab837b922099c3c28af73c754"
+    },
+    {
+      "name": "bluetooth",
+      "component": "BluetoothOutlined",
+      "svgSha256": "03efe850a0717f697b4628ce5d0bd44b5d59b994f790d2f3d8247e1b0c75e06a"
+    },
+    {
+      "name": "bot",
+      "component": "BotOutlined",
+      "svgSha256": "5273de6d9c29b10682110cc9b1c78d722d53546915f97ee9592392fc127d978a"
+    },
+    {
+      "name": "box-list",
+      "component": "BoxListOutlined",
+      "svgSha256": "d09fb1c43da0e2499bc6ddcb5d7c641ad436e36919bf8dd9edb890c90c702416"
+    },
+    {
+      "name": "box-up",
+      "component": "BoxUpOutlined",
+      "svgSha256": "3dc8455ebe805db810955a135be667730f56dceeb552f4c5e733b576fc0bc753"
+    },
+    {
+      "name": "building",
+      "component": "BuildingOutlined",
+      "svgSha256": "aeea62dab89898a66ab18d3a94e28bdd1cae73d00f09cc5882c5213c314b8d01"
+    },
+    {
+      "name": "calculator",
+      "component": "CalculatorOutlined",
+      "svgSha256": "6a664c3350bedc338c044aca0c959bb2f2a0dcadbca9755691a3423923aa004d"
+    },
+    {
+      "name": "calendar",
+      "component": "CalendarOutlined",
+      "svgSha256": "5a24ae5424b31dbb85719b26d810dbd75e82f196dca41558990dc5071035b7d2"
+    },
+    {
+      "name": "calendar-route",
+      "component": "CalendarRouteOutlined",
+      "svgSha256": "8a0d595951531bdcdcb04627444e77379e6bcb021e4a6c755eb8669d199626e6"
+    },
+    {
+      "name": "camera",
+      "component": "CameraOutlined",
+      "svgSha256": "4a8149dd72a29507d41c0e82a62861b6412eee5c5525c69fa7eed1e9456d1aac"
+    },
+    {
+      "name": "camera-flip",
+      "component": "CameraFlipOutlined",
+      "svgSha256": "8131c22ab666afe72750d290a6212bdbf81f7092add19abedfd27d70c3d976a0"
+    },
+    {
+      "name": "camera-off",
+      "component": "CameraOffOutlined",
+      "svgSha256": "0987b70c134cfd9120e1a911fa3cf000b343767e2669e6e1f7fed5cda1f8a1f1"
+    },
+    {
+      "name": "card",
+      "component": "CardOutlined",
+      "svgSha256": "526013f071e2265e02e70e8c9ec56d1ec1d1c91557a13c2904e9a105e29965df"
+    },
+    {
+      "name": "chat-plus",
+      "component": "ChatPlusOutlined",
+      "svgSha256": "e92873fad5746fd9614adfeebef30bb9761cdae3645f1b81bd0d617e293d42b4"
+    },
+    {
+      "name": "chat-star",
+      "component": "ChatStarOutlined",
+      "svgSha256": "186112ffe31176bc7f3c84ffc2df56120944216ee52379d2fc79f73500f44e0b"
+    },
+    {
+      "name": "check",
+      "component": "CheckOutlined",
+      "svgSha256": "9c49fbc57ff3819e42402fc41a9e0f7684856573a6a8be86c4175e0c3a9a34b3"
+    },
+    {
+      "name": "chevron-down",
+      "component": "ChevronDownOutlined",
+      "svgSha256": "ff9c2544ca5038cfee6a6c5b16ad9f637a1637787ae54901368adfec5349d882"
+    },
+    {
+      "name": "chevron-left",
+      "component": "ChevronLeftOutlined",
+      "svgSha256": "269216075c72c2219456f20ec117926bdcc213df3f88b59f4b13261bec1562c8"
+    },
+    {
+      "name": "chevron-right",
+      "component": "ChevronRightOutlined",
+      "svgSha256": "c014323bda94a74cc0e4099bd0c49c7db8b2e35b4646545738180ebc50e4e567"
+    },
+    {
+      "name": "chevron-up",
+      "component": "ChevronUpOutlined",
+      "svgSha256": "0622d6894fac3728258d069f13fe59488340992385283d6f78d9b8efc4c68096"
+    },
+    {
+      "name": "circle-minus",
+      "component": "CircleMinusOutlined",
+      "svgSha256": "2575053b3133141b06e1bafe69b3973214ca1fc8e2d2850b2c5ff51c59b9cf81"
+    },
+    {
+      "name": "circle-plus",
+      "component": "CirclePlusOutlined",
+      "svgSha256": "fd16c3ac4989ecde0b9c1cf351435fd707bf2ef0f202c02589481f8afdb2a583"
+    },
+    {
+      "name": "clipboard",
+      "component": "ClipboardOutlined",
+      "svgSha256": "33a105a2956223408b504c0026e6835e5c373938c7e66c33b3a9fe7e4b7625cb"
+    },
+    {
+      "name": "clipboard-search",
+      "component": "ClipboardSearchOutlined",
+      "svgSha256": "be8663e99b2121c91f32e4a929c7ba25f826fedd75bc8e846e134a8dd2025f0b"
+    },
+    {
+      "name": "clipboard-user",
+      "component": "ClipboardUserOutlined",
+      "svgSha256": "43792d502939ec0db50028433aa1bb84db0b43c312d3f7c8e30ed61fa9487650"
+    },
+    {
+      "name": "close",
+      "component": "CloseOutlined",
+      "svgSha256": "fbf58cde0ef7f7b20c8612879061a691d09aef1258ab09d732e473eba2f49b5b"
+    },
+    {
+      "name": "coffee",
+      "component": "CoffeeOutlined",
+      "svgSha256": "be36de86116a6e9bc7a1881da0ee2e5ee7a6a078c6a505889cd7cab42f25f6ee"
+    },
+    {
+      "name": "coin",
+      "component": "CoinOutlined",
+      "svgSha256": "27c9e7d93c368d4498f72e4dcd4368908b84eb7253c4f975ec668dc2ed0771b4"
+    },
+    {
+      "name": "copy",
+      "component": "CopyOutlined",
+      "svgSha256": "0b580a89c197f3e53556b8f5dce2bbd1c640c4fe56980ef93b64cda713ed28da"
+    },
+    {
+      "name": "crosshair",
+      "component": "CrosshairOutlined",
+      "svgSha256": "4d776a050a7adac71397102a610da32e4ffb63b5e3a6e555b140263cbfbf7fd0"
+    },
+    {
+      "name": "dashboard-megaphone",
+      "component": "DashboardMegaphoneOutlined",
+      "svgSha256": "466a35580b99fe3432cc1e461b281c17ca683c7cb170c8f39b8ab4a49e741294"
+    },
+    {
+      "name": "dashboard-star",
+      "component": "DashboardStarOutlined",
+      "svgSha256": "10192a0e8bf6a7e1fabdcac84903e818a7f446ac86216250e2a61f70dabf0167"
+    },
+    {
+      "name": "database-search",
+      "component": "DatabaseSearchOutlined",
+      "svgSha256": "328ecc75971bbe9766dac33f354e194bef0f939714dae0f338371d2838501427"
+    },
+    {
+      "name": "download",
+      "component": "DownloadOutlined",
+      "svgSha256": "ea82a0dd749bf76984c6559b99502249dca356396b08c54e615a7b4e35070863"
+    },
+    {
+      "name": "edit",
+      "component": "EditOutlined",
+      "svgSha256": "475c0396fa47604e53183a2222d7300bd6fd4a179bcc3a508a35e5d7c80b74a7"
+    },
+    {
+      "name": "edit-pencil",
+      "component": "EditPencilOutlined",
+      "svgSha256": "84af9902072ec4d3a14b727a0a66f9ec79a9a7e1340f6287d71272f6471ae0ae"
+    },
+    {
+      "name": "error",
+      "component": "ErrorOutlined",
+      "svgSha256": "62b8feb82cdd0301832444616fe4dbd9247865c075a1072f6aec7d6e6a935a6a"
+    },
+    {
+      "name": "error-alert",
+      "component": "ErrorAlertOutlined",
+      "svgSha256": "46d4a4d0fc5f863e1283179a3f8dd3e367b81c7ae926b20c99ef0b9da61b87e8"
+    },
+    {
+      "name": "eye",
+      "component": "EyeOutlined",
+      "svgSha256": "2260c8a908c5e43a6b868a317b655b6bc05e12492b6c7bc006d4304d5b6a3be2"
+    },
+    {
+      "name": "eye-off",
+      "component": "EyeOffOutlined",
+      "svgSha256": "3768b6635cafdb34c534e1ce4f6210870f796a809ace6adf09d525a6f6869eff"
+    },
+    {
+      "name": "file",
+      "component": "FileOutlined",
+      "svgSha256": "4b26e37ab6be081dc34f6bf5fbd4d63c7c6db7ef2ac0782cff62f9fec6175737"
+    },
+    {
+      "name": "file-excel",
+      "component": "FileExcelOutlined",
+      "svgSha256": "4cfae78b2ed01ce8bca50b29202857aa0deb4e4ffdfb5973f25c5245085cdbca"
+    },
+    {
+      "name": "file-parse",
+      "component": "FileParseOutlined",
+      "svgSha256": "83acdd615149ae4b109554b7545f788c590ed5cb51e01df5c03398927b2cac71"
+    },
+    {
+      "name": "file-pdf",
+      "component": "FilePdfOutlined",
+      "svgSha256": "862c9175901f4ac6ca24f86a64faf534d8faa90474eba0c1f3d0cc8b4b86708a"
+    },
+    {
+      "name": "file-read",
+      "component": "FileReadOutlined",
+      "svgSha256": "a670c688eadf377bfcf7ebc0e38f964e330274167ffbddc87127ae33e686ada2"
+    },
+    {
+      "name": "file-word",
+      "component": "FileWordOutlined",
+      "svgSha256": "d4ddaca33153e608c101f0e3646afafa4bf77a3eb59b75680baea59f16ee4b91"
+    },
+    {
+      "name": "file-write",
+      "component": "FileWriteOutlined",
+      "svgSha256": "ffa930d66055792e644eea1fb726d3092b5195e373910037b190d4468493bff1"
+    },
+    {
+      "name": "filter",
+      "component": "FilterOutlined",
+      "svgSha256": "5f6ea05fdfd196e5d35b57cf9544e728df1ff288094e60ce8ba798bd6bcc384e"
+    },
+    {
+      "name": "flag",
+      "component": "FlagOutlined",
+      "svgSha256": "77928a0b4c5678c1b13e8389239f541b5450feeeaf3bd4c004ec37dc15b76532"
+    },
+    {
+      "name": "flash-auto",
+      "component": "FlashAutoOutlined",
+      "svgSha256": "d15929ceedac52e9a624320797e3e3261c1b52f282fa68418681db509b8bf5b0"
+    },
+    {
+      "name": "flash-off",
+      "component": "FlashOffOutlined",
+      "svgSha256": "e714f0bef35485be88cb202136de91ee1db91da4de915ff4d0c2283a277650ee"
+    },
+    {
+      "name": "flash-on",
+      "component": "FlashOnOutlined",
+      "svgSha256": "9587c9941c0478a209d7ef4983da45d7e9bc45c1e3c93bf29d21b0b01817a636"
+    },
+    {
+      "name": "fuel",
+      "component": "FuelOutlined",
+      "svgSha256": "1aef48e1a72694b1e24b6c430699fcaf5850233b9cb8bebbb4ef1a034cec8652"
+    },
+    {
+      "name": "globe",
+      "component": "GlobeOutlined",
+      "svgSha256": "23a90338bdd8525c2775868c544fb0e698be5d4d1eea40e978102a481e5f6db3"
+    },
+    {
+      "name": "grid",
+      "component": "GridOutlined",
+      "svgSha256": "918089685c35a3bdde6273f7e2f477e48e2246e6261d7af7aefba883ca0f72cc"
+    },
+    {
+      "name": "hand",
+      "component": "HandOutlined",
+      "svgSha256": "37e05f71ebbc7a460ce8668c893d142a728cfe12f967c541c9c09896c4d1a382"
+    },
+    {
+      "name": "heart",
+      "component": "HeartOutlined",
+      "svgSha256": "473132a341a957e2efe01ad76a645d1929a9512673e45e9849e6f66f3d9fb92a"
+    },
+    {
+      "name": "home",
+      "component": "HomeOutlined",
+      "svgSha256": "a2ab31e10973beea6ae83f25480cff7165cc2904f16e76d20073e36dafe8dfcc"
+    },
+    {
+      "name": "image",
+      "component": "ImageOutlined",
+      "svgSha256": "92038e16c0ab91941a959118c0efb7e236a63320bef200c23dea1fab957c0cf7"
+    },
+    {
+      "name": "image-search",
+      "component": "ImageSearchOutlined",
+      "svgSha256": "bee10c298ca929941463970bbed83e7643c760517a10317aaae76bb6b4d782ae"
+    },
+    {
+      "name": "info",
+      "component": "InfoOutlined",
+      "svgSha256": "819a55c2fb7020b10036176e152437880397c0c1c2828d7ac5d8a3cbdb899c7d"
+    },
+    {
+      "name": "keyboard",
+      "component": "KeyboardOutlined",
+      "svgSha256": "41eae8ab875e197c7d974c617fd13e8722f53e8c6683484e4111adc933ad216f"
+    },
+    {
+      "name": "lens-flip",
+      "component": "LensFlipOutlined",
+      "svgSha256": "8270bd6784d9336cf6616d05f836c36be512188d4cff43bc58b2460cc4b466f8"
+    },
+    {
+      "name": "lightbulb",
+      "component": "LightbulbOutlined",
+      "svgSha256": "6defe8d62366251c2b3b0d3ba0abb111581a9103577c8ceaff603ebeb50cc4dc"
+    },
+    {
+      "name": "list",
+      "component": "ListOutlined",
+      "svgSha256": "f2249a1ee9b7c3192c044e6de5ca99970499e5ab5a66ade4be5b773f8e1d93b1"
+    },
+    {
+      "name": "location",
+      "component": "LocationOutlined",
+      "svgSha256": "b79491685153ca8659a7f986eb3cc088893210b28c7be9453993dd643a111e75"
+    },
+    {
+      "name": "lock",
+      "component": "LockOutlined",
+      "svgSha256": "bd4fc45587a9877eccfad89f660aaf63b4615ad05e3d28f39f9bd9785fede8d8"
+    },
+    {
+      "name": "logout",
+      "component": "LogoutOutlined",
+      "svgSha256": "1d3653f03f9016cf97952730a183d7bbfa19951d53128e179df9d4aa70a9a758"
+    },
+    {
+      "name": "mail",
+      "component": "MailOutlined",
+      "svgSha256": "751ac36a1e64f726794f4a68303c72b1afe5dc9d2e7684cc735c303afbfe6b90"
+    },
+    {
+      "name": "maximize",
+      "component": "MaximizeOutlined",
+      "svgSha256": "7859362ae208a2979ae890b37bf56ac16e0ba18db9f935b2a63681b8d3e017f5"
+    },
+    {
+      "name": "medical-cross",
+      "component": "MedicalCrossOutlined",
+      "svgSha256": "4815e95c687b021e906f456f41eef4185b817c67b8033208492cb5001d0723ca"
+    },
+    {
+      "name": "menu",
+      "component": "MenuOutlined",
+      "svgSha256": "8af1134c98a5fb96c53ac99ea9e5ec26262a4c4f40bb2eecf9dd4c98d4ff24d8"
+    },
+    {
+      "name": "mic",
+      "component": "MicOutlined",
+      "svgSha256": "2ae7558471be470cd90d5e0d29ea0315565ff77b0ed28b784cd3d2c8aeb68348"
+    },
+    {
+      "name": "mic-on",
+      "component": "MicOnOutlined",
+      "svgSha256": "e79ea62fe2a6abb96e4b840924f777be909b5a621f3d57df4b3023b2733871f4"
+    },
+    {
+      "name": "minimize",
+      "component": "MinimizeOutlined",
+      "svgSha256": "1d64217aa66dd9c21782b89932303b8922132df60917725e73f400e914ffa265"
+    },
+    {
+      "name": "minus",
+      "component": "MinusOutlined",
+      "svgSha256": "b59eeaee014bb17a2d1a970adfd54a1f234bc0b57575db87a40669d8b7e81d34"
+    },
+    {
+      "name": "more-h",
+      "component": "MoreHOutlined",
+      "svgSha256": "2c1c93ff51aec23c4251fd17b49882eccc4e5bec9ddf6a0d01d6b16b4d4a5028"
+    },
+    {
+      "name": "more-v",
+      "component": "MoreVOutlined",
+      "svgSha256": "f0e7a1a37412f0a454453bcf704818b0a423957653ad73cb7d52e59b1b429ea2"
+    },
+    {
+      "name": "navigation-pointer",
+      "component": "NavigationPointerOutlined",
+      "svgSha256": "15a6a5c82cc4577c632a2962e6df937d7f9a8593d54073cfb22440fbf765a75d"
+    },
+    {
+      "name": "order",
+      "component": "OrderOutlined",
+      "svgSha256": "7428b3e32e739377f9a395e9c93ce79a467ea7efb280b00cb0a4574011a6c538"
+    },
+    {
+      "name": "package",
+      "component": "PackageOutlined",
+      "svgSha256": "8bce2a14975fd7998a65e00f61bdf8316c02b83badf15fc2154589449ccc7f03"
+    },
+    {
+      "name": "paperclip",
+      "component": "PaperclipOutlined",
+      "svgSha256": "1f7bdcc79680a5c0a7dd9fb11c8d61ef3c9ea14ca9d2b4a66df0f62c3d055878"
+    },
+    {
+      "name": "pause",
+      "component": "PauseOutlined",
+      "svgSha256": "bd40a179faf3714680d721836472b5bc7ffda5ea00c5c3928dcdd30cf47850e8"
+    },
+    {
+      "name": "permission-denied",
+      "component": "PermissionDeniedOutlined",
+      "svgSha256": "8cbff3318be04015dea3d967ea383cce2710be9377cb3572a0f3ba5aeaea9900"
+    },
+    {
+      "name": "phone",
+      "component": "PhoneOutlined",
+      "svgSha256": "2c5b2de70df0f1acdd611e669471dbb3e29339673249b788121cc11717d79116"
+    },
+    {
+      "name": "pin-search",
+      "component": "PinSearchOutlined",
+      "svgSha256": "154b658071e0aebe5659dbe82c3b011a9a9f9e85d0be876defb60a660163172a"
+    },
+    {
+      "name": "play",
+      "component": "PlayOutlined",
+      "svgSha256": "8a4e4245087b5f799379659d8ffda821d5c25a65f26816bcd6127e0a578999c1"
+    },
+    {
+      "name": "plus",
+      "component": "PlusOutlined",
+      "svgSha256": "6239803d3f04fe9505f7e439cb5fbd153691b7f60e7b068997e6de40fd0d2e63"
+    },
+    {
+      "name": "qr",
+      "component": "QrOutlined",
+      "svgSha256": "fc27dbaf1d9d8a2388d5f7bf6801f24ee81066ec1cb953448c55817afb6fc760"
+    },
+    {
+      "name": "refresh",
+      "component": "RefreshOutlined",
+      "svgSha256": "62b32adc68847fb5c6486ddec8d367af161a8229d3cf41ae5e29f7aa47c0967a"
+    },
+    {
+      "name": "retry",
+      "component": "RetryOutlined",
+      "svgSha256": "44ac288e1784b8f7ed3c9baf521123af506fd6b45388748bda863528ceb760ef"
+    },
+    {
+      "name": "route",
+      "component": "RouteOutlined",
+      "svgSha256": "ba39a5024046f6e274a9d7827680f22a8488c0c0090f7aea895a63d545ec8a57"
+    },
+    {
+      "name": "scan",
+      "component": "ScanOutlined",
+      "svgSha256": "1f26ab855d241a6977a65717f4e9d24c43ecacddc6da1b6d77ecd643977a2f2a"
+    },
+    {
+      "name": "scanner",
+      "component": "ScannerOutlined",
+      "svgSha256": "c2788dbfa166723cc31e9a74948b0fc91fd0f36655845f70b486cff29b5c2d9d"
+    },
+    {
+      "name": "search",
+      "component": "SearchOutlined",
+      "svgSha256": "40ffb522672e235b9c82646e2a586399fceec269d42e315cec790080ed6feeea"
+    },
+    {
+      "name": "send",
+      "component": "SendOutlined",
+      "svgSha256": "a2d8f2fef2b3a07388bb28cf6a6df49a503cf8bccea398c52669c734d3cda274"
+    },
+    {
+      "name": "settings",
+      "component": "SettingsOutlined",
+      "svgSha256": "495b58c2fc1c3a8180f192341ddfd7530b6d492af7816304c56290a35f47084a"
+    },
+    {
+      "name": "share",
+      "component": "ShareOutlined",
+      "svgSha256": "ba2000bc69a663739f0d884e075fb38b89b63051f7dce6907ae83784b4687afc"
+    },
+    {
+      "name": "shelf-pay",
+      "component": "ShelfPayOutlined",
+      "svgSha256": "6350f0a38bafeafcbb1b624dd558c00fd72464bdc7e750cae4119cba5ab15711"
+    },
+    {
+      "name": "shield-check",
+      "component": "ShieldCheckOutlined",
+      "svgSha256": "c0265f57ee6d37b62c872ec4a44b7d82dd4f6a6772705ce336cd1666fdf9f961"
+    },
+    {
+      "name": "shopping-bag",
+      "component": "ShoppingBagOutlined",
+      "svgSha256": "8042ad2554eb94d21a9ba7bbc6bcae86b05bf5b37a86b80cc32cb550a693a9b6"
+    },
+    {
+      "name": "shutter",
+      "component": "ShutterOutlined",
+      "svgSha256": "884babce63f5cc9115d05afffda45c2a0f4f0951f791eddfc2749f576a0f96c0"
+    },
+    {
+      "name": "shutter-recording",
+      "component": "ShutterRecordingOutlined",
+      "svgSha256": "085023e2d74a42fb50880f1df4394439703ae3ee941d30ba93919e4148d940e1"
+    },
+    {
+      "name": "sidebar",
+      "component": "SidebarOutlined",
+      "svgSha256": "6d834dec05a25670f93d02382405df83b766aa78ebc9e7739a001c50e1e611f1"
+    },
+    {
+      "name": "sort",
+      "component": "SortOutlined",
+      "svgSha256": "7577e9d7f3611bf15b880ab2686bc72bb48672a2136789421b6e876796c6fd69"
+    },
+    {
+      "name": "sound",
+      "component": "SoundOutlined",
+      "svgSha256": "58c9f16468fe0431f14cd5fa2141bcf217e9c3e01c5750ce0350319e169aedac"
+    },
+    {
+      "name": "sound-off",
+      "component": "SoundOffOutlined",
+      "svgSha256": "cd2a66934bf96ee3f28cf5bdb4bfe16ecaefc987e74413a3ab580eddf2e8a5bd"
+    },
+    {
+      "name": "spark",
+      "component": "SparkOutlined",
+      "svgSha256": "03d9ffc0ed08b9c7a6fd9c446a87da37dc71dd48c9b920e8f5acdf5bdc753bec"
+    },
+    {
+      "name": "star",
+      "component": "StarOutlined",
+      "svgSha256": "3172b746d9b51d72ae9ffbbe9a2340d107e605c4d1695a19be817f85875bd076"
+    },
+    {
+      "name": "star-filled",
+      "component": "StarFilled",
+      "svgSha256": "f95c5d84ad419e1b214a823a65a237b0dafbe7d9a3f9bd9e83730e2f2e35521c"
+    },
+    {
+      "name": "stop",
+      "component": "StopFilled",
+      "svgSha256": "c58d6d7e4176149bb60b2a9d1a7f6d7f3383596c4309d779a8f8198bd9883ece"
+    },
+    {
+      "name": "store",
+      "component": "StoreOutlined",
+      "svgSha256": "0a6ee9068fe6e857798151ea1cd2ede41d5f84005055e705d3d8712944a2b43e"
+    },
+    {
+      "name": "storefront",
+      "component": "StorefrontOutlined",
+      "svgSha256": "6e63659d49b9538d968b291f41fc44ba1cee2374174d440978b0350ccca830b7"
+    },
+    {
+      "name": "storefront-ai",
+      "component": "StorefrontAiOutlined",
+      "svgSha256": "6fd1bb1d789299d7a3ee4067d1ad121e61e5b3daac7a169f1eb9c8e86507bfe3"
+    },
+    {
+      "name": "storefront-arrow",
+      "component": "StorefrontArrowOutlined",
+      "svgSha256": "81736129577ad860802afd79cb013ab5d8ff275c6471046fdfa8191d0926540e"
+    },
+    {
+      "name": "storefront-check",
+      "component": "StorefrontCheckOutlined",
+      "svgSha256": "efdea5981c29ff510c3dec65056c0c4f40a99442112cb8504115417874411ee2"
+    },
+    {
+      "name": "storefront-tag",
+      "component": "StorefrontTagOutlined",
+      "svgSha256": "c0619e86dd2f20c816fbfed8efbbb80a6b7d452883dd64dde8d78bff309802c5"
+    },
+    {
+      "name": "success",
+      "component": "SuccessOutlined",
+      "svgSha256": "9f73e54b790a56fcffd7463d8e21310fe68db70dba5eae59c24050f6a4eeaedc"
+    },
+    {
+      "name": "tag",
+      "component": "TagOutlined",
+      "svgSha256": "960556dc4355ca98fc4992201e42392a753e397f56d2428e61a14f0398b086aa"
+    },
+    {
+      "name": "terminal",
+      "component": "TerminalOutlined",
+      "svgSha256": "c1b3194c3dc0fe281d45117a20b6e28ca0dfea27c62da4577feb47ff3a5d8220"
+    },
+    {
+      "name": "text-scan",
+      "component": "TextScanOutlined",
+      "svgSha256": "3ebf50f5c3aa3597104fc64fe27bb4ca867fd164a5a0180dc1438f493fb22767"
+    },
+    {
+      "name": "thinking",
+      "component": "ThinkingOutlined",
+      "svgSha256": "b0236760b7963a18a5bd31b0faea681313704540b41a56c02ac3f1c5a39b52e9"
+    },
+    {
+      "name": "thumb-down",
+      "component": "ThumbDownOutlined",
+      "svgSha256": "1647f2fb38ccf752c356829b3b96227e330d53ce2e7dd4f13fbd773662586511"
+    },
+    {
+      "name": "thumb-up",
+      "component": "ThumbUpOutlined",
+      "svgSha256": "3252175da83fc47d4c9f0fb16fa1ed5b11bf8e4106832f41e28c11930e734ed5"
+    },
+    {
+      "name": "thumb-up-down",
+      "component": "ThumbUpDownOutlined",
+      "svgSha256": "b55a1605efb98dd7fb8d695678e5ddbc0f6ad3e121a06cee6df7427a65d231ce"
+    },
+    {
+      "name": "tool",
+      "component": "ToolOutlined",
+      "svgSha256": "574407bf84fc0a4cfd17ee72caba95e739cb6184fc565ff28fa7c8c2a518888c"
+    },
+    {
+      "name": "trash",
+      "component": "TrashOutlined",
+      "svgSha256": "a7feedcc588281903a7525d6c7d8a1f18a01e5739a205ef51fa4b8fc0cae39c9"
+    },
+    {
+      "name": "undo",
+      "component": "UndoOutlined",
+      "svgSha256": "cfddc6558e7ddf02f84352252910f17907dc9287d60fc6d6252d0c2df0800361"
+    },
+    {
+      "name": "upload",
+      "component": "UploadOutlined",
+      "svgSha256": "eca0b987d5b5fe903ddbd224152ed3042e2caddf2a982b79d24accd3bee53ff2"
+    },
+    {
+      "name": "user",
+      "component": "UserOutlined",
+      "svgSha256": "ac3a74ce66854394f2c67ddc067f0034dce781ce5a4c83904766ba30e8a8ccda"
+    },
+    {
+      "name": "users-search",
+      "component": "UsersSearchOutlined",
+      "svgSha256": "205f9f76bf7742e76f197256bb8ed910d3846f0bac882813d9e9480d88567a2b"
+    },
+    {
+      "name": "utensils",
+      "component": "UtensilsOutlined",
+      "svgSha256": "ddbce1031349f808e7a28bc68b65c5ca604d9c11ea8d5d1fa7f43d79b9fb50ab"
+    },
+    {
+      "name": "visit",
+      "component": "VisitOutlined",
+      "svgSha256": "4c7e109da79e68eafdf5053308e203e53d8844fe3116fc51d6fa8f947c60dcc4"
+    },
+    {
+      "name": "warning",
+      "component": "WarningOutlined",
+      "svgSha256": "2eea03d43f39442792917ab0855dd3c486a45f631b6edd26380ef80d66d5e835"
+    }
+  ]
+}
