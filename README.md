@@ -6,7 +6,13 @@
 
 ## 使用
 
-在应用模块的 `oh-package.json5` 中将 `@unif/harmony-icons` 指向已构建并复制到消费工程的 HAR，再执行 OHPM 安装。从包根导入，不能深导入生成目录。
+在应用模块目录安装：
+
+```sh
+ohpm install @unif/harmony-icons
+```
+
+本地验证时，在应用模块的 `oh-package.json5` 中将 `@unif/harmony-icons` 指向已构建并复制到消费工程的 HAR，再执行 `ohpm install`。从包根导入，不能深导入生成目录。安装要求、权限与使用说明见[包内 README](library/README.md)。
 
 ```typescript
 import { UnifIcon, UnifIconName, StarFilled } from '@unif/harmony-icons';
@@ -57,4 +63,17 @@ HAR 输出：`library/build/default/outputs/default/library.har`。源码宿主�
 
 源码模块消费时，当前 Hvigor 会按 scoped 包名与 `module.name` 比较而给出 `Missing module info for local modules '@unif/harmony-icons'` 警告；保留包身份，通过独立 HAR 消费另行验证。当前 Hvigor 的版本检查要求首位非零，会对首位为 0 的版本给出 SemVer 警告；OHPM 实际使用标准 SemVer 校验，接受该研发版本，已完成本地安装与包消费。保留工具诊断，不修改校验器。未配置签名会给出 `No signingConfig found`，不影响未签名构建。
 
-示例包含全部图标的 18／24／32 尺寸、明暗表面、显式颜色、描边切换、图标名称更新、应用文字倍率和父按钮点击。构建只证明接线与编译；实际图形、密度、透明度、裁切、读屏、父按钮交互及系统大字号仍需在相同条件下进行设备验收。没有安装、发布或真实业务验收结论。
+示例包含全部图标的 18／24／32 尺寸、明暗表面、显式颜色、描边切换、图标名称更新、应用文字倍率和父按钮点击。构建只证明接线与编译；实际图形、密度、透明度、裁切、读屏、父按钮交互及系统大字号仍需在相同条件下进行设备验收。设备运行与真实业务验收按对应证据另行记录。
+
+## 发布
+
+从已合并的 `main` 构建 release HAR，核对版本与 RN Icons 基线一致，并检查[中心仓发包规则](https://ohpm.openharmony.cn/#/cn/help/publishrules)及[必要文件](https://ohpm.openharmony.cn/#/cn/help/publishrequirefile)：作者联系信息、安装命令中的包名、当前版本的变更记录和许可证须完整且一致。
+
+```sh
+devecocli build --modules library --build-mode release
+python3 scripts/verify-har-consumer.py
+ohpm prepublish library/build/default/outputs/default/library.har
+ohpm publish library/build/default/outputs/default/library.har
+```
+
+发布账号须具备 `@unif` 组织的权限，凭据按 OHPM 官方要求在仓库外配置。`prepublish` 仅检查客户端规则；中心仓还会校验发布资料并进行上架审核。上传受理与审核通过分别确认，上架后再验证中心仓安装和消费。
